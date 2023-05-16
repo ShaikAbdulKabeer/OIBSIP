@@ -1,0 +1,849 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#navi{
+    padding-left: 4rem;
+}
+#navig{
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+#name{
+    font-family: 'Roboto Slab', serif;
+
+}
+#start{
+    color: white;
+    font-family: 'Roboto Slab', serif;
+
+}
+.team{
+    padding-bottom: 5rem;
+}
+.gets{
+    font-family: 'Jost', sans-serif;
+    background-color: white;
+    padding: 10px;
+    outline: 0px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+ .animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  }
+.clients{
+    background-color: aliceblue;
+    padding: 2rem;
+
+}
+.clients img{
+    height: 2rem;
+    color: rgb(7, 7, 77);
+}
+.about{
+  font-family: 'jost', sans-serif;
+  color: rgb(7, 7, 77);
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  padding-bottom: 2rem;
+}
+.cla{
+    animation:slide-fwd-center .45s cubic-bezier(.25,.46,.45,.94) both;
+}
+.rbut{
+  outline: none;
+  border-style: solid;
+  border-color: rgb(41, 41, 243);
+  font-family: 'jost', sans-serif;
+  padding: 0.2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.dpsc1{
+  font-family: 'jost', sans-serif;
+  font-size: large;
+}
+.dpsc1 p{
+  color: rgb(163, 161, 161);
+}
+.dpps{
+  background-color: rgb(235, 235, 235);
+}
+.services{
+  background-color: rgb(235, 235, 235);
+  padding: 2rem;
+}
+#drops{
+  width: 20rem;
+}
+#proooo{
+  margin-bottom: 1rem;
+}
+.common{
+  display: flex;
+  justify-content: space-between;
+}
+.services_about h2{
+  text-align: center;
+  padding-bottom: 1rem;
+  font-family: 'jost', sans-serif;
+}
+.card{
+  height: 15rem;
+  width: 15rem;
+  border: 1px;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  border-style: solid;
+  box-shadow: 5px 10px 18px #888888;
+}
+.faqstitle{
+  text-align: center;
+}
+.faqs{
+  background-color: rgb(235, 235, 235);
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+.faqs p{
+  padding: 2rem;
+}
+.allcards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.drop2s button{
+  font-family: 'jost',sans-serif;
+}
+.faqstitle{
+  font-family: 'jost', sans-serif;
+}
+.contacts{
+  text-align: center;
+  font-family: 'jost', sans-serif;
+  padding-top: 2rem;
+}
+.map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.mapcons{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.map-container iframe{
+  left:0;
+  top:0;
+  height:54%;
+  width:94%;
+  position:absolute;
+}
+
+.sub{
+  width: 51.3vw;
+  height: 2.5rem;
+}
+.subc{
+  margin-left: 2rem;
+}
+.message{
+  height: 15rem;
+  width: 51.3vw;
+}
+.messc{
+  margin-left: 2rem;
+}
+.final a{
+  text-decoration: none;
+  color: rgb(7, 7, 77);
+  font-family: 'jost',sans-serif;
+}
+.last{
+  height: 5rem;
+  background-color: rgb(38, 39, 39);
+}
+.last{
+  text-align: center;
+  padding-top: 1rem;
+  color: white;
+  font-family: 'jost',sans-serif;
+}
+.last a{
+  text-decoration: none;
+  color: white;
+}
+.final{
+  margin-top: 3rem;
+  background-color: rgb(235, 235, 235);
+  width: 100%;
+  height: 20rem;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2rem;
+  flex-wrap: wrap;
+}
+.d1{
+  font-family: 'jost',sans-serif;
+}
+.address{
+  width: 8rem;
+}
+.sendbut{
+  padding: 1rem;
+  background-color: rgb(7, 7, 77);
+  color: white;
+  font-family: 'jost', sans-serif;
+  border: none;
+  outline: none;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  margin-left: 20rem;
+}
+@media only screen and (min-width: 992px) {
+    .main1{
+          background-color: rgb(38, 39, 39);
+          color: white;
+          font-family: 'Jost', sans-serif;
+          padding-left: 5rem;
+          padding-top: 7rem;
+          padding-bottom: 5rem;
+          display: flex;
+      }
+      #main1img{
+        height: 24rem;
+        padding-left: 10rem;
+    }
+    .team{
+      width: 34rem;
+    }
+    .motive{
+      width: 30rem;
+    }
+    .clients{
+      display: flex;
+      justify-content: space-around;
+      padding: 2rem;
+      flex-wrap: wrap;
+      }
+      .aboutcon{
+        display: flex;
+      }
+      .left{
+        padding-left: 5rem;
+        width: 45rem;
+      }
+      .right{
+        width: 45rem;
+        padding-left: 2rem;
+      }
+      .aboutmain{
+        padding: 2rem;
+      }
+      .dps{
+        display: flex;
+        padding: 6rem;
+      }
+      .dpsc1{
+        width: 42rem;
+        padding-left: 3rem;
+      }
+      .dpsc2 img{
+        height: 22rem;
+        padding-left: 8rem;
+      }
+      .dpsc11{
+        display: flex;
+        flex-direction: column;
+      }
+      .progmain{
+        display: flex;
+        padding: 4rem;
+        font-family:'jost', sans-serif;
+      }
+      .progimg{
+        height: 25rem;
+      }
+      .progimage{
+        padding-top: 3rem;
+        padding-left: 2rem;
+      }
+      .mteam{
+        padding: 2rem;
+      }
+      .mteam p{
+        padding-left: 2rem;
+      }
+      .mteam h2{
+        text-align: center;
+        font-family: 'jost', sans-serif;
+      
+      }
+      .teammems{
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 5rem;
+      }
+      .fteam{
+        display: flex;
+        width: 35rem;
+        height: 13rem;
+        padding:2rem ;
+        border: 2px;
+        border-style: solid;
+        border-color: transparent;
+        box-shadow: 5px 10px 18px #888888;
+      }
+      .imagee img{
+        height: 5rem;
+        border-radius: 50rem;
+      }
+      .detls{
+        width: 24rem;
+      
+      }
+      .detls h5{
+        padding-left: 2rem;
+      }
+      .detls hr{
+        width: 4rem;
+        margin-left: 2rem;
+      }
+      .detls p{
+        margin-left: 2rem;
+      }
+      .firstf{
+        display: flex;
+        justify-content: space-around;
+      }
+      .alldrops{
+        margin-bottom: 2rem;
+        margin-top: 5rem;
+        margin-left: 20rem;
+      }
+      .drop2s{
+        width: 40rem;
+        margin-bottom: 1rem;
+      }
+      .names,.mail{
+        height: 2.5rem;
+        width: 19rem;
+      }
+      .formdiv{
+        height: 35rem;
+        width: 50rem;
+        border: 1px;
+        border-style: solid;
+        box-shadow: 5px 10px 18px #888888;
+        padding: 2rem;
+        border-left: none;
+        border-right: none;
+      }
+      .mapdiv{
+        height: 35rem;
+        width: 25rem;
+        border: 1px;
+        border-style: solid;
+        box-shadow: 5px 10px 18px #888888;
+        padding-left: 2rem;
+        padding-top: 1rem;
+        font-family: 'jost',sans-serif;
+        border-left: none;
+        border-right: none;
+      }
+      .sendbut{
+        padding: 1rem;
+        background-color: rgb(7, 7, 77);
+        color: white;
+        font-family: 'jost', sans-serif;
+        border: none;
+        outline: none;
+        border-radius: 1rem;
+        margin-top: 1rem;
+        margin-left: 20rem;
+      }
+    }
+    
+  @media only screen and (max-width: 992px){
+    .main1{
+        background-color: rgb(38, 39, 39);
+        color: white;
+        font-family: 'Jost', sans-serif;
+        padding-left: 5rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    #main1img{
+        height: 24rem;
+        padding-left: 2rem;
+    }
+    .team{
+        width: 34rem;
+    }
+    .motive{
+        width: 30rem;
+    }
+    .clients{
+        display: flex;
+        justify-content: space-around;
+        padding: 2rem;
+        flex-wrap: wrap;
+    }
+    .left{
+      padding-left: 5rem;
+      width: 45rem;
+    }
+    .right{
+      width: 45rem;
+      padding-left: 2rem;
+    }
+    #drops{
+      line-height: 0.5rem;
+    }
+    .dps{
+      display: flex;
+      flex-direction: column-reverse;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+    .dpsc2 img{
+      height: 10rem;
+      padding-left: 8rem;
+    }
+    .progmain{
+      font-family:'jost', sans-serif;
+    }
+    .progimg{
+      padding-left: 4rem;
+      height: 10rem;
+    }
+    .progimage{
+      padding-top: 3rem;
+      padding-left: 2rem;
+    }
+    .mteam{
+      padding: 2rem;
+    }
+    .mteam p{
+      padding-left: 2rem;
+    }
+    .mteam h2{
+      text-align: center;
+      font-family: 'jost', sans-serif;
+    
+    }
+    .faqs{
+      margin-top: 1rem;
+    }
+    .fteam{
+      display: flex;
+      width: 50rem;
+      height: 13rem;
+      padding:2rem ;
+      border: 2px;
+      border-style: solid;
+      border-color: transparent;
+      box-shadow: 5px 10px 18px #888888;
+    }
+    .imagee img{
+      height: 5rem;
+      border-radius: 50rem;
+    }
+    .detls{
+      width: 24rem;
+    
+    }
+    .detls h5{
+      padding-left: 2rem;
+    }
+    .detls hr{
+      width: 4rem;
+      margin-left: 2rem;
+    }
+    .detls p{
+      margin-left: 2rem;
+    }
+    .alldrops{
+      margin-bottom: 2rem;
+      margin-top: 5rem;
+      margin-left: 8rem;
+    }
+    .drop2s{
+      width: 40rem;
+      margin-bottom: 1rem;
+    }
+    .names,.mail{
+      height: 2.5rem;
+      width: 27.5rem;
+    }
+    .formdiv{
+      height: 37rem;
+      width: 50rem;
+      border: 1px;
+      border-style: solid;
+      box-shadow: 5px 10px 18px #888888;
+      padding: 2rem;
+      border-left: none;
+      border-right: none;
+      margin-top: 2rem;
+      padding-left: 10rem;
+    }
+    .firstf{
+      margin-left: 2rem;
+    }
+    .mapdiv{
+      height: 35rem;
+      width: 50rem;
+      border: 1px;
+      border-style: solid;
+      box-shadow: 5px 10px 18px #888888;
+      padding-left: 2rem;
+      padding-top: 1rem;
+      font-family: 'jost',sans-serif;
+      border-left: none;
+      border-right: none;
+    }
+    .sendbut{
+      padding: 1rem;
+      background-color: rgb(7, 7, 77);
+      color: white;
+      font-family: 'jost', sans-serif;
+      border: none;
+      outline: none;
+      border-radius: 1rem;
+      margin-top: 1rem;
+      margin-left: 7rem;
+    }
+    .teammems{
+      margin-left: 2rem;
+    }
+  }
+  @media only screen and (max-width:600px){
+    .main1{
+        background-color: rgb(38, 39, 39);
+        color: white;
+        font-family: 'Jost', sans-serif;
+        padding-left: 2rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    .mapdiv{
+      height: 35rem;
+      width: 25rem;
+      border: 1px;
+      border-style: solid;
+      box-shadow: 5px 10px 18px #888888;
+      padding-left: 2rem;
+      padding-top: 1rem;
+      font-family: 'jost',sans-serif;
+      border-left: none;
+      border-right: none;
+
+    }
+    #main1img{
+        height: 19rem;
+        
+    }
+    .team{
+        width: 20rem;
+    }
+    .motive{
+        width: 27rem;
+    }
+    .clients{
+        display: flex;
+        justify-content: space-around;
+        padding: 2rem;
+        flex-wrap: wrap;
+    }
+    .about{
+      padding-top: 1rem;
+    }
+    .left{
+      padding-left: 1rem;
+      width: 32rem;
+    }
+    .right{
+      width: 29rem;
+      padding-left: 1rem;
+    }
+    #drops{
+      line-height: 0.5rem;
+    }
+    .dps{
+      display: flex;
+      flex-direction: column-reverse;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+    .dpscon{
+      padding: 1rem;
+    }
+    .dpsc2 img{
+      height: 10rem;
+      padding-left: 8rem;
+    }
+    .rbut{
+      margin-bottom: 1rem;
+    }
+    .progmain{
+      font-family:'jost', sans-serif;
+    }
+    .progimg{
+      padding-left: 4rem;
+      height: 10rem;
+    }
+    .progimage{
+      padding-top: 3rem;
+      padding-left: 2rem;
+    }
+    .progcon{
+      padding-left: 2rem;
+      padding-top: 1rem;
+    }
+    .card{
+      margin-bottom: 5px;
+    }
+    .mteam{
+      padding: 2rem;
+    }
+    .mteam p{
+      padding-left: 2rem;
+    }
+    .mteam h2{
+      text-align: center;
+      font-family: 'jost', sans-serif;
+    
+    }
+    .teammems{
+      margin-left: 0px;
+    }
+    .fteam{
+      display: flex;
+      width: 29rem;
+      height: 13rem;
+      padding:2rem ;
+      margin-bottom: 1rem;
+      border: 2px;
+      margin-left: 0.5rem;
+      border-style: solid;
+      border-color: transparent;
+      box-shadow: 5px 10px 18px #888888;
+    }
+    .imagee img{
+      height: 5rem;
+      border-radius: 50rem;
+    }
+    .detls{
+      width: 24rem;
+    
+    }
+    .detls h5{
+      padding-left: 2rem;
+    }
+    .detls hr{
+      width: 4rem;
+      margin-left: 2rem;
+    }
+    .detls p{
+      margin-left: 2rem;
+    }
+    .alldrops{
+      margin-bottom: 2rem;
+      margin-top: 5rem;
+      margin-left: 2rem;
+    }
+    .drop2s{
+      width: 27rem;
+      margin-bottom: 1rem;
+    }
+    .names,.mail{
+      height: 2.5rem;
+      width: 16rem;
+    }
+    .firstf{
+      margin-left: 2rem;
+    }
+    .formdiv{
+      height: 37rem;
+      width: 25rem;
+      border: 1px;
+      margin-top: 2rem;
+      border-style: solid;
+      box-shadow: 5px 10px 18px #888888;
+      padding: 2rem;
+      border-left: none;
+      border-right: none;
+    }
+    .sendbut{
+      background-color: rgb(7, 7, 77);
+      color: white;
+      font-family: 'jost', sans-serif;
+      border: none;
+      outline: none;
+      border-radius: 1rem;
+    
+    }
+    
+  }
+  @keyframes slide-fwd-center{0%{transform:translateZ(0)}100%{transform:translateZ(160px)}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          @media (max-width: 991px) {
+            #hero {
+              height: 100vh;
+              text-align: center;
+            }
+          
+            #hero .animated {
+                animation: none;
+            }
+          
+            #hero .hero-img {
+              text-align: center;
+            }
+          
+            #hero .hero-img img {
+              width: 50%;
+            }
+          }
+          
+          @media (max-width: 768px) {
+            #hero h1 {
+              font-size: 28px;
+              line-height: 36px;
+            }
+          
+            #hero h2 {
+              font-size: 18px;
+              line-height: 24px;
+              margin-bottom: 30px;
+            }
+          
+            #hero .hero-img img {
+              width: 70%;
+            }
+          }
+          
+          @media (max-width: 575px) {
+            #hero .hero-img img {
+              width: 80%;
+            }
+          
+            #hero .btn-get-started {
+              font-size: 16px;
+              padding: 10px 24px 11px 24px;
+            }
+          }
+             
+          @keyframes up-down {
+            0% {
+              transform: translateY(10px);
+            }
+          
+            100% {
+              transform: translateY(-10px);
+            }
+          }
